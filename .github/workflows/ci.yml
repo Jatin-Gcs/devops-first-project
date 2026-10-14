@@ -36,4 +36,4 @@ jobs:
       with: 
         context: .
         push: true
-        tags: ${{ secreats.DOCKER_USERNAME }}/devops-first-project:latest .
+        tags: ${{ secrets.DOCKER_USERNAME }}/devops-first-project:latest .
